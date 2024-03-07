@@ -1,0 +1,461 @@
+Mar  7 16:31:39 ControlNode rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="552" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar  7 16:31:40 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.30' (uid=0 pid=587 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  7 16:31:40 ControlNode systemd[1]: Starting Time & Date Service...
+Mar  7 16:31:41 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  7 16:31:41 ControlNode systemd[1]: Started Time & Date Service.
+Mar  7 16:31:45 ControlNode anacron[612]: Job `cron.daily' terminated
+Mar  7 16:31:45 ControlNode anacron[612]: Normal exit (1 job run)
+Mar  7 16:32:31 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 16:32:31 ControlNode gnome-shell[1686]: Object .Gjs_AppIndicatorIconActor__1 (0x5649b0732440), has been already finalized. Impossible to set any property to it.
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #0 0x7ffdfe04acc0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f24843b5de0 @ 87)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #1 0x5649ab190c48 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f24453c1780 @ 58)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #2 0x7ffdfe04b8a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #3 0x7ffdfe04b960 b   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #4 0x7ffdfe04ba50 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #5 0x5649ab190bc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f24453b1450 @ 22)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #6 0x7ffdfe04c6a0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #7 0x5649ab190b18 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f24453aea28 @ 225)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #8 0x7ffdfe04d280 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #9 0x5649ab190aa0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f2445383bc0 @ 37)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #10 0x5649ab1909e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f24842592b8 @ 441)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #11 0x5649ab190960 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f2484259d58 @ 13)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #12 0x7ffdfe04df80 b   self-hosted:251 (0x7f24843c4ab0 @ 223)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #13 0x5649ab1908e0 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f2484259cd0 @ 64)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #14 0x5649ab190860 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f2484259de0 @ 87)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #15 0x7ffdfe04f480 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #16 0x7ffdfe04fc90 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f248416e5e8 @ 254)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #17 0x7ffdfe051080 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #18 0x5649ab190720 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f248416e3c8 @ 40)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #19 0x7ffdfe0523e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #20 0x5649ab190678 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f2484153a28 @ 188)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #21 0x7ffdfe053740 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #22 0x5649ab1905f0 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f2484151b38 @ 18)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #23 0x7ffdfe054aa0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #24 0x5649ab190530 i   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #25 0x7ffdfe055e20 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #26 0x5649ab1904b0 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f2484238a28 @ 29)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #27 0x5649ab190428 i   resource:///org/gnome/shell/ui/tweener.js:112 (0x7f24843c8e68 @ 37)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #28 0x5649ab190388 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f24843d2b38 @ 54)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #29 0x5649ab190268 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f24843d2bc0 @ 1626)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #30 0x5649ab1901d8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f24843d2c48 @ 100)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #31 0x5649ab190160 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f24843d2cd0 @ 10)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #32 0x7ffdfe058dc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #33 0x5649ab1900d0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f24843cf808 @ 159)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #34 0x7ffdfe05a120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:32:31 ControlNode org.gnome.Shell.desktop[1686]: #35 0x5649ab190050 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f24843cf780 @ 15)
+Mar  7 16:32:31 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 16:35:59 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:35:59 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:35:59 ControlNode NetworkManager[582]: <info>  [1709800559.4626] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:35:59 ControlNode NetworkManager[582]: <info>  [1709800559.4627] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:35:59 ControlNode NetworkManager[582]: <info>  [1709800559.4627] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:35:59 ControlNode NetworkManager[582]: <info>  [1709800559.4627] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:35:59 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:35:59 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:35:59 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 296 seconds.
+Mar  7 16:35:59 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:35:59 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:35:59 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:35:59 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:36:40 ControlNode snapd[587]: devicemgr.go:2300: no NTP sync after 10m0s, trying auto-refresh anyway
+Mar  7 16:36:40 ControlNode snapd[587]: autorefresh.go:545: Cannot prepare auto-refresh change: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: no such host
+Mar  7 16:36:40 ControlNode snapd[587]: stateengine.go:149: state ensure error: Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp: lookup api.snapcraft.io: no such host
+Mar  7 16:40:01 ControlNode systemd[1]: Started Session 4 of user gabriel.
+Mar  7 16:40:06 ControlNode gnome-shell[1686]: Object Gdm.UserVerifierProxy (0x5649ac400140), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar  7 16:40:06 ControlNode gnome-shell[1686]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar  7 16:40:06 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 16:40:06 ControlNode org.gnome.Shell.desktop[1686]: #0 0x5649ab190050 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f2484188230 @ 14)
+Mar  7 16:40:09 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 16:40:09 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 16:40:09 ControlNode gnome-shell[1686]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.71/org/ayatana/NotificationItem/livepatch
+Mar  7 16:40:09 ControlNode dbus-daemon[1491]: [session uid=1000 pid=1491] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.24' (uid=1000 pid=1686 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar  7 16:40:09 ControlNode systemd[1463]: Starting Virtual filesystem metadata service...
+Mar  7 16:40:09 ControlNode dbus-daemon[1491]: [session uid=1000 pid=1491] Successfully activated service 'org.gtk.vfs.Metadata'
+Mar  7 16:40:09 ControlNode systemd[1463]: Started Virtual filesystem metadata service.
+Mar  7 16:40:09 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 16:40:09 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 16:40:55 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:40:55 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:40:55 ControlNode NetworkManager[582]: <info>  [1709800855.2418] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:40:55 ControlNode NetworkManager[582]: <info>  [1709800855.2418] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:40:55 ControlNode NetworkManager[582]: <info>  [1709800855.2418] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:40:55 ControlNode NetworkManager[582]: <info>  [1709800855.2419] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:40:55 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:40:55 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:40:55 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:40:55 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:40:55 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:40:55 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:40:55 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 238 seconds.
+Mar  7 16:41:40 ControlNode systemd[1]: Starting Cleanup of Temporary Directories...
+Mar  7 16:41:40 ControlNode systemd[1]: Started Cleanup of Temporary Directories.
+Mar  7 16:41:59 ControlNode systemd[1]: Started Session 5 of user gabriel.
+Mar  7 16:41:59 ControlNode python3[2569]: ansible-find Invoked with paths=['/var/log/'] recurse=True patterns=['*.log'] file_type=file age_stamp=mtime hidden=False follow=False get_checksum=False use_regex=False excludes=None contains=None age=None size=None
+Mar  7 16:44:53 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:44:53 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:44:53 ControlNode NetworkManager[582]: <info>  [1709801093.3071] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:44:53 ControlNode NetworkManager[582]: <info>  [1709801093.3072] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:44:53 ControlNode NetworkManager[582]: <info>  [1709801093.3072] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:44:53 ControlNode NetworkManager[582]: <info>  [1709801093.3072] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:44:53 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:44:53 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:44:53 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 246 seconds.
+Mar  7 16:44:53 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:44:53 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:44:53 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:44:53 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:45:09 ControlNode gnome-shell[1686]: Object .Gjs_AppIndicatorIconActor__1 (0x5649b0575b50), has been already finalized. Impossible to set any property to it.
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #0 0x7ffdfe04bad0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f24843b5de0 @ 87)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #1 0x5649ab190bc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f24453c1780 @ 58)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #2 0x7ffdfe04c6b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #3 0x7ffdfe04c770 b   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #4 0x7ffdfe04c860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #5 0x5649ab190b38 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f24453b1450 @ 22)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #6 0x7ffdfe04d4b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #7 0x5649ab190a90 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f24453aea28 @ 225)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #8 0x7ffdfe04e090 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #9 0x5649ab190a18 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f2445383bc0 @ 37)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #10 0x5649ab190958 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f24842592b8 @ 441)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #11 0x5649ab1908d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f2484259d58 @ 13)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #12 0x7ffdfe04ed90 b   self-hosted:251 (0x7f24843c4ab0 @ 223)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #13 0x5649ab190858 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f2484259cd0 @ 64)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #14 0x5649ab1907d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f2484259de0 @ 87)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #15 0x7ffdfe050290 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #16 0x7ffdfe050aa0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f248416e5e8 @ 254)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #17 0x7ffdfe051e90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #18 0x5649ab190698 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f248416e3c8 @ 40)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #19 0x7ffdfe0531f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #20 0x5649ab1905f0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f2484153a28 @ 188)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #21 0x7ffdfe054550 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #22 0x5649ab190568 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f2484151b38 @ 18)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #23 0x7ffdfe0558b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #24 0x5649ab1904a8 i   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #25 0x7ffdfe056c30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #26 0x5649ab190428 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f2484238a28 @ 29)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #27 0x5649ab190388 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f24843d2b38 @ 54)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #28 0x5649ab190268 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f24843d2bc0 @ 1626)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #29 0x5649ab1901d8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f24843d2c48 @ 100)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #30 0x5649ab190160 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f24843d2cd0 @ 10)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #31 0x7ffdfe058dc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #32 0x5649ab1900d0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f24843cf808 @ 159)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #33 0x7ffdfe05a120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 16:45:09 ControlNode org.gnome.Shell.desktop[1686]: #34 0x5649ab190050 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f24843cf780 @ 15)
+Mar  7 16:45:09 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 16:45:09 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 16:48:59 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:48:59 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:48:59 ControlNode NetworkManager[582]: <info>  [1709801339.2151] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:48:59 ControlNode NetworkManager[582]: <info>  [1709801339.2152] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:48:59 ControlNode NetworkManager[582]: <info>  [1709801339.2152] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:48:59 ControlNode NetworkManager[582]: <info>  [1709801339.2152] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:48:59 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:48:59 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:48:59 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:48:59 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:48:59 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 267 seconds.
+Mar  7 16:48:59 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:48:59 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:53:26 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:53:26 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:53:26 ControlNode NetworkManager[582]: <info>  [1709801606.9462] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:53:26 ControlNode NetworkManager[582]: <info>  [1709801606.9462] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:53:26 ControlNode NetworkManager[582]: <info>  [1709801606.9462] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:53:26 ControlNode NetworkManager[582]: <info>  [1709801606.9462] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:53:26 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:53:26 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:53:26 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 230 seconds.
+Mar  7 16:53:26 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:53:26 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:53:26 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:53:26 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:57:16 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 16:57:16 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 16:57:16 ControlNode NetworkManager[582]: <info>  [1709801836.3796] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 16:57:16 ControlNode NetworkManager[582]: <info>  [1709801836.3797] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 16:57:16 ControlNode NetworkManager[582]: <info>  [1709801836.3797] dhcp4 (enp0s3):   lease time 600
+Mar  7 16:57:16 ControlNode NetworkManager[582]: <info>  [1709801836.3797] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 16:57:16 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 16:57:16 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 16:57:16 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 259 seconds.
+Mar  7 16:57:16 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 16:57:16 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 16:57:16 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 16:57:16 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 16:57:29 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 16:57:30 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 16:57:30 ControlNode gnome-shell[1686]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.71/org/ayatana/NotificationItem/livepatch
+Mar  7 16:57:30 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 16:57:30 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 17:01:36 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:01:36 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:01:36 ControlNode NetworkManager[582]: <info>  [1709802096.0105] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:01:36 ControlNode NetworkManager[582]: <info>  [1709802096.0106] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:01:36 ControlNode NetworkManager[582]: <info>  [1709802096.0106] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:01:36 ControlNode NetworkManager[582]: <info>  [1709802096.0106] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:01:36 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:01:36 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:01:36 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:01:36 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:01:36 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:01:36 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:01:36 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 276 seconds.
+Mar  7 17:02:21 ControlNode systemd[1]: Started Run anacron jobs.
+Mar  7 17:02:21 ControlNode anacron[2649]: Anacron 2.3 started on 2024-03-07
+Mar  7 17:02:21 ControlNode anacron[2649]: Normal exit (0 jobs run)
+Mar  7 17:02:30 ControlNode gnome-shell[1686]: Object .Gjs_AppIndicatorIconActor__1 (0x5649ab379a10), has been already finalized. Impossible to set any property to it.
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #0 0x7ffdfe04bad0 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f24843b5de0 @ 87)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #1 0x5649ab190bc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f24453c1780 @ 58)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #2 0x7ffdfe04c6b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #3 0x7ffdfe04c770 b   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #4 0x7ffdfe04c860 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #5 0x5649ab190b38 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f24453b1450 @ 22)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #6 0x7ffdfe04d4b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #7 0x5649ab190a90 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f24453aea28 @ 225)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #8 0x7ffdfe04e090 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #9 0x5649ab190a18 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f2445383bc0 @ 37)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #10 0x5649ab190958 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f24842592b8 @ 441)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #11 0x5649ab1908d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f2484259d58 @ 13)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #12 0x7ffdfe04ed90 b   self-hosted:251 (0x7f24843c4ab0 @ 223)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #13 0x5649ab190858 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f2484259cd0 @ 64)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #14 0x5649ab1907d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f2484259de0 @ 87)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #15 0x7ffdfe050290 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #16 0x7ffdfe050aa0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f248416e5e8 @ 254)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #17 0x7ffdfe051e90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #18 0x5649ab190698 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f248416e3c8 @ 40)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #19 0x7ffdfe0531f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #20 0x5649ab1905f0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f2484153a28 @ 188)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #21 0x7ffdfe054550 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #22 0x5649ab190568 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f2484151b38 @ 18)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #23 0x7ffdfe0558b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #24 0x5649ab1904a8 i   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #25 0x7ffdfe056c30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #26 0x5649ab190428 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f2484238a28 @ 29)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #27 0x5649ab190388 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f24843d2b38 @ 54)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #28 0x5649ab190268 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f24843d2bc0 @ 1626)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #29 0x5649ab1901d8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f24843d2c48 @ 100)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #30 0x5649ab190160 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f24843d2cd0 @ 10)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #31 0x7ffdfe058dc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #32 0x5649ab1900d0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f24843cf808 @ 159)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #33 0x7ffdfe05a120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:02:30 ControlNode org.gnome.Shell.desktop[1686]: #34 0x5649ab190050 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f24843cf780 @ 15)
+Mar  7 17:02:30 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 17:02:30 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 17:04:21 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 17:04:21 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 17:04:21 ControlNode gnome-shell[1686]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.71/org/ayatana/NotificationItem/livepatch
+Mar  7 17:04:21 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 17:04:21 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 17:06:12 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:06:13 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:06:13 ControlNode NetworkManager[582]: <info>  [1709802373.0057] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:06:13 ControlNode NetworkManager[582]: <info>  [1709802373.0058] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:06:13 ControlNode NetworkManager[582]: <info>  [1709802373.0058] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:06:13 ControlNode NetworkManager[582]: <info>  [1709802373.0058] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:06:13 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:06:13 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:06:13 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 251 seconds.
+Mar  7 17:06:13 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:06:13 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:06:13 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:06:13 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:10:24 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:10:24 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:10:24 ControlNode NetworkManager[582]: <info>  [1709802624.8947] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:10:24 ControlNode NetworkManager[582]: <info>  [1709802624.8948] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:10:24 ControlNode NetworkManager[582]: <info>  [1709802624.8948] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:10:24 ControlNode NetworkManager[582]: <info>  [1709802624.8948] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:10:24 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:10:24 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:10:24 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 297 seconds.
+Mar  7 17:10:24 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:10:24 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:10:24 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:10:24 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:13:09 ControlNode gnome-shell[1686]: Object .Gjs_AppIndicatorIconActor__1 (0x5649ab008440), has been already finalized. Impossible to set any property to it.
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #0 0x7ffdfe04a450 b   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f24843b5de0 @ 87)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #1 0x5649ab190bc0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f24453c1780 @ 58)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #2 0x7ffdfe04b7b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #3 0x7ffdfe04b870 b   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #4 0x7ffdfe04b960 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #5 0x5649ab190b38 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f24453b1450 @ 22)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #6 0x7ffdfe04ccc0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #7 0x5649ab190a90 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f24453aea28 @ 225)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #8 0x7ffdfe04e020 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #9 0x5649ab190a18 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f2445383bc0 @ 37)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #10 0x5649ab190958 i   resource:///org/gnome/shell/ui/extensionSystem.js:83 (0x7f24842592b8 @ 441)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #11 0x5649ab1908d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:354 (0x7f2484259d58 @ 13)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #12 0x7ffdfe04ed90 b   self-hosted:251 (0x7f24843c4ab0 @ 223)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #13 0x5649ab190858 i   resource:///org/gnome/shell/ui/extensionSystem.js:353 (0x7f2484259cd0 @ 64)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #14 0x5649ab1907d8 i   resource:///org/gnome/shell/ui/extensionSystem.js:371 (0x7f2484259de0 @ 87)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #15 0x7ffdfe050290 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #16 0x7ffdfe050aa0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f248416e5e8 @ 254)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #17 0x7ffdfe051e90 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #18 0x5649ab190698 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f248416e3c8 @ 40)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #19 0x7ffdfe0531f0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #20 0x5649ab1905f0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f2484153a28 @ 188)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #21 0x7ffdfe054550 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #22 0x5649ab190568 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f2484151b38 @ 18)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #23 0x7ffdfe0558b0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #24 0x5649ab1904a8 i   self-hosted:916 (0x7f24843f12b8 @ 367)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #25 0x7ffdfe056c30 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #26 0x5649ab190428 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f2484238a28 @ 29)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #27 0x5649ab190388 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f24843d2b38 @ 54)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #28 0x5649ab190268 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f24843d2bc0 @ 1626)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #29 0x5649ab1901d8 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f24843d2c48 @ 100)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #30 0x5649ab190160 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f24843d2cd0 @ 10)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #31 0x7ffdfe058dc0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f24843d2230 @ 386)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #32 0x5649ab1900d0 i   resource:///org/gnome/shell/ui/tweener.js:244 (0x7f24843cf808 @ 159)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #33 0x7ffdfe05a120 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f24843b5de0 @ 71)
+Mar  7 17:13:09 ControlNode org.gnome.Shell.desktop[1686]: #34 0x5649ab190050 i   resource:///org/gnome/shell/ui/tweener.js:219 (0x7f24843cf780 @ 15)
+Mar  7 17:13:09 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 17:13:09 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 17:15:21 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:15:21 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:15:21 ControlNode NetworkManager[582]: <info>  [1709802921.1602] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:15:21 ControlNode NetworkManager[582]: <info>  [1709802921.1602] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:15:21 ControlNode NetworkManager[582]: <info>  [1709802921.1602] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:15:21 ControlNode NetworkManager[582]: <info>  [1709802921.1603] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:15:21 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:15:21 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:15:21 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:15:21 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:15:21 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:15:21 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:15:21 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 243 seconds.
+Mar  7 17:17:01 ControlNode CRON[2709]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  7 17:17:29 ControlNode kernel: [ 3053.306627] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Mar  7 17:19:24 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:19:24 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:19:24 ControlNode NetworkManager[582]: <info>  [1709803164.4561] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:19:24 ControlNode NetworkManager[582]: <info>  [1709803164.4563] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:19:24 ControlNode NetworkManager[582]: <info>  [1709803164.4563] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:19:24 ControlNode NetworkManager[582]: <info>  [1709803164.4563] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:19:24 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:19:24 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:19:24 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 255 seconds.
+Mar  7 17:19:24 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:19:24 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:19:24 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:19:24 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:23:21 ControlNode systemd[1]: Started Session 7 of user gabriel.
+Mar  7 17:23:22 ControlNode python3[2785]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:23:22 ControlNode python3[2826]: ansible-apt Invoked with upgrade=yes update_cache=True cache_valid_time=86400 state=present purge=False force=False dpkg_options=force-confdef,force-confold autoremove=False autoclean=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None
+Mar  7 17:23:22 ControlNode python3[2826]: ansible-apt [WARNING] Could not find aptitude. Using apt-get instead.
+Mar  7 17:23:23 ControlNode systemd[1]: Starting Update APT News...
+Mar  7 17:23:23 ControlNode systemd[1]: Starting Update the local ESM caches...
+Mar  7 17:23:23 ControlNode systemd[1]: Started Update APT News.
+Mar  7 17:23:23 ControlNode systemd[1]: Starting Update APT News...
+Mar  7 17:23:24 ControlNode systemd[1]: Started Update APT News.
+Mar  7 17:23:24 ControlNode python3[2841]: Error updating the cache: [Errno -2] Name or service not known
+Mar  7 17:23:24 ControlNode systemd[1]: Started Update the local ESM caches.
+Mar  7 17:23:39 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:23:39 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:23:39 ControlNode NetworkManager[582]: <info>  [1709803419.9506] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:23:39 ControlNode NetworkManager[582]: <info>  [1709803419.9507] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:23:39 ControlNode NetworkManager[582]: <info>  [1709803419.9507] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:23:39 ControlNode NetworkManager[582]: <info>  [1709803419.9507] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:23:39 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:23:39 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:23:39 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 263 seconds.
+Mar  7 17:23:39 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:23:39 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:23:39 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:23:39 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:24:39 ControlNode systemd[1]: Started Session 8 of user gabriel.
+Mar  7 17:24:39 ControlNode python3[2951]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:24:41 ControlNode python3[2992]: ansible-apt Invoked with upgrade=yes update_cache=True cache_valid_time=86400 state=present purge=False force=False dpkg_options=force-confdef,force-confold autoremove=False autoclean=False only_upgrade=False force_apt_get=False allow_unauthenticated=False package=None deb=None default_release=None install_recommends=None
+Mar  7 17:24:41 ControlNode python3[2992]: ansible-apt [WARNING] Could not find aptitude. Using apt-get instead.
+Mar  7 17:24:41 ControlNode systemd[1]: Starting Update APT News...
+Mar  7 17:24:41 ControlNode systemd[1]: Starting Update the local ESM caches...
+Mar  7 17:24:41 ControlNode systemd[1]: Started Update APT News.
+Mar  7 17:24:41 ControlNode systemd[1]: Starting Update APT News...
+Mar  7 17:24:42 ControlNode systemd[1]: Started Update APT News.
+Mar  7 17:24:42 ControlNode python3[3007]: Error updating the cache: [Errno -2] Name or service not known
+Mar  7 17:24:42 ControlNode systemd[1]: Started Update the local ESM caches.
+Mar  7 17:25:08 ControlNode python3[3057]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:25:09 ControlNode python3[3098]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:25:09 ControlNode python3[3135]: ansible-slurp Invoked with src=/var/log/syslog
+Mar  7 17:25:09 ControlNode python3[3157]: ansible-slurp Invoked with src=/var/log/auth.log
+Mar  7 17:26:48 ControlNode gnome-shell[1686]: Object Gdm.UserVerifierProxy (0x5649ac92f2b0), has been already deallocated - impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Mar  7 17:26:48 ControlNode org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5649aad7e340 ==
+Mar  7 17:26:48 ControlNode org.gnome.Shell.desktop[1686]: #0 0x5649ab190050 i   resource:///org/gnome/shell/gdm/util.js:446 (0x7f2484188230 @ 14)
+Mar  7 17:26:48 ControlNode gnome-shell[1686]: g_dbus_proxy_call_finish_internal: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+Mar  7 17:26:51 ControlNode gnome-software[2096]: no app for changed ubuntu-dock@ubuntu.com
+Mar  7 17:26:51 ControlNode gnome-software[2096]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar  7 17:26:51 ControlNode gnome-shell[1686]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.71/org/ayatana/NotificationItem/livepatch
+Mar  7 17:26:51 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 17:26:51 ControlNode gvfsd-metadata[2470]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar  7 17:26:54 ControlNode pulseaudio[1699]: [alsa-sink-Intel ICH] alsa-sink.c: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Mar  7 17:26:54 ControlNode pulseaudio[1699]: [alsa-sink-Intel ICH] alsa-sink.c: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Mar  7 17:26:54 ControlNode pulseaudio[1699]: [alsa-sink-Intel ICH] alsa-sink.c: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Mar  7 17:28:02 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:28:02 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:28:02 ControlNode NetworkManager[582]: <info>  [1709803682.8168] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:28:02 ControlNode NetworkManager[582]: <info>  [1709803682.8169] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:28:02 ControlNode NetworkManager[582]: <info>  [1709803682.8169] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:28:02 ControlNode NetworkManager[582]: <info>  [1709803682.8170] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:28:02 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:28:02 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:28:02 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 278 seconds.
+Mar  7 17:28:02 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:28:02 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:28:02 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:28:02 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:29:38 ControlNode systemd[1]: Started Session 9 of user gabriel.
+Mar  7 17:29:38 ControlNode python3[3273]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:29:38 ControlNode python3[3314]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:30:07 ControlNode python3[3351]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:30:07 ControlNode python3[3392]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:30:24 ControlNode python3[3429]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:30:25 ControlNode python3[3470]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:32:30 ControlNode systemd[1]: Started Session 10 of user gabriel.
+Mar  7 17:32:31 ControlNode python3[3558]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:32:31 ControlNode python3[3599]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:32:33 ControlNode python3[3636]: ansible-slurp Invoked with src=/var/log/pattern
+Mar  7 17:32:40 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:32:40 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:32:40 ControlNode NetworkManager[582]: <info>  [1709803960.4038] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:32:40 ControlNode NetworkManager[582]: <info>  [1709803960.4038] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:32:40 ControlNode NetworkManager[582]: <info>  [1709803960.4038] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:32:40 ControlNode NetworkManager[582]: <info>  [1709803960.4039] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:32:40 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:32:40 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:32:40 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 236 seconds.
+Mar  7 17:32:40 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:32:40 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:32:40 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:32:40 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:33:34 ControlNode systemd[1]: Started Session 11 of user gabriel.
+Mar  7 17:33:35 ControlNode python3[3717]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:33:35 ControlNode python3[3758]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:33:35 ControlNode python3[3795]: ansible-slurp Invoked with src=/var/log
+Mar  7 17:33:54 ControlNode python3[3816]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:33:54 ControlNode python3[3857]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:33:55 ControlNode python3[3894]: ansible-slurp Invoked with src=/var/log
+Mar  7 17:34:37 ControlNode python3[3915]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:34:38 ControlNode python3[3956]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:35:32 ControlNode python3[3996]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:35:33 ControlNode python3[4037]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:36:32 ControlNode python3[4074]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:36:33 ControlNode python3[4115]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:36:36 ControlNode dhclient[682]: DHCPREQUEST of 192.168.56.108 on enp0s3 to 192.168.56.100 port 67 (xid=0x157210dd)
+Mar  7 17:36:36 ControlNode dhclient[682]: DHCPACK of 192.168.56.108 from 192.168.56.100
+Mar  7 17:36:36 ControlNode NetworkManager[582]: <info>  [1709804196.7181] dhcp4 (enp0s3):   address 192.168.56.108
+Mar  7 17:36:36 ControlNode NetworkManager[582]: <info>  [1709804196.7182] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar  7 17:36:36 ControlNode NetworkManager[582]: <info>  [1709804196.7182] dhcp4 (enp0s3):   lease time 600
+Mar  7 17:36:36 ControlNode NetworkManager[582]: <info>  [1709804196.7182] dhcp4 (enp0s3): state changed bound -> bound
+Mar  7 17:36:36 ControlNode dbus-daemon[561]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=582 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar  7 17:36:36 ControlNode systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar  7 17:36:36 ControlNode dbus-daemon[561]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar  7 17:36:36 ControlNode systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar  7 17:36:36 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Mar  7 17:36:36 ControlNode nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar  7 17:36:36 ControlNode dhclient[682]: bound to 192.168.56.108 -- renewal in 283 seconds.
+Mar  7 17:37:54 ControlNode systemd[1]: Started Session 12 of user gabriel.
+Mar  7 17:37:55 ControlNode python3[4213]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:37:56 ControlNode python3[4254]: ansible-setup Invoked with gather_timeout=10 gather_subset=['all'] filter=* fact_path=/etc/ansible/facts.d
+Mar  7 17:37:57 ControlNode python3[4291]: ansible-slurp Invoked with src=/var/log/syslog

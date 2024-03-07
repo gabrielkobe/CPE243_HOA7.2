@@ -1,6 +1,7 @@
-[server]
+[manage]
+192.168.56.107 ansible_python_interpreter=/usr/bin/python3
 
-192.168.56.107
-192.168.56.108
+[control]
+192.168.56.108 ansible_python_interpreter=/usr/bin/python3
 
 
